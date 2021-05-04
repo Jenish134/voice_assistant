@@ -34,6 +34,3 @@ def mail_sender1():
     server.quit()
     
     print ("successfully sent email to %s:" % (msg['To']))
-
-
-mail_sender1()
